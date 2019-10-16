@@ -6,6 +6,7 @@
             "email": "he_wenzhi@126.com"
         }
     ],
+    "license": "MIT",
     "support": {
         "source": "https://github.com/hollisho/workerman-cron-job"
     },
