@@ -1,0 +1,23 @@
+{
+    "name": "hollisho/workerman-cron-job",
+    "authors": [
+        {
+            "name": "Hollis Ho",
+            "email": "he_wenzhi@126.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/hollisho/workerman-cron-job"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "workerman/workerman" : "^3.5"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "^6.2"
+    },
+    "autoload": {
+        "psr-4": { "hollisho\\CronJob\\": "src/" }
+    }
+}
