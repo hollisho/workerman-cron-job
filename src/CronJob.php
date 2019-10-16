@@ -8,7 +8,6 @@
 
 namespace hollisho\CronJob;
 
-use hollisho\CronJob\CronJobException;
 use Workerman\Worker;
 
 class CronJob {
@@ -196,7 +195,7 @@ class CronJob {
      */
     protected static function modeFactory()
     {
-        $modeClass = '\CronJob\Modes\\'.ucfirst(self::$mode);
+        $modeClass = 'hollisho\CronJob\Modes\\'.ucfirst(self::$mode);
         $mode = new $modeClass();
         return $mode;
     }
