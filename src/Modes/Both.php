@@ -1,7 +1,4 @@
 <?php
-/**
- * cron-job
- */
 
 namespace hollisho\CronJob\Modes;
 
